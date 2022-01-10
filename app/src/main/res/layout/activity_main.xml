@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:gravity="center"
-            android:text="Kiev"
+            android:text="London"
             android:textColor="@color/white"
             android:textSize="30sp" />
 
@@ -31,9 +31,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="50dp"
             android:gravity="center"
-            android:text=" "
+            android:text="Loading"
             android:textColor="@color/white"
-            android:textSize="90sp" />
+            android:textSize="70sp" />
 
         <TextView
             android:id="@+id/tvDescription"
@@ -64,10 +64,11 @@
             android:padding="8dp">
 
             <TextView
+                android:id="@+id/day1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Thursday"
+                android:text="Tomorrow"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -78,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="end"
                 android:layout_marginEnd="20dp"
-                android:text=" "
+                android:text="Loading"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -92,10 +93,11 @@
             android:padding="8dp">
 
             <TextView
+                android:id="@+id/day2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Friday"
+                android:text="day after tomorrow"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -106,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="end"
                 android:layout_marginEnd="20dp"
-                android:text=" "
+                android:text="Loading"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -120,10 +122,11 @@
             android:padding="8dp">
 
             <TextView
+                android:id="@+id/day3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Saturday"
+                android:text="in 3 days"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -134,7 +137,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="end"
                 android:layout_marginEnd="20dp"
-                android:text=" "
+                android:text="Loading"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
