@@ -8,7 +8,7 @@ import retrofit2.http.Query
 
 interface ApiService {
 
-    @GET("weather/London") // дополнение к https://goweather.herokuapp.com/
+    @GET("weather/Kiev") // дополнение к https://goweather.herokuapp.com/
     suspend fun getWeather(): Response<Weather>
 
 }

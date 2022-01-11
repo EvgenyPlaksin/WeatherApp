@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:gravity="center"
-            android:text="London"
+            android:text="Kiev"
             android:textColor="@color/white"
             android:textSize="30sp" />
 
@@ -43,6 +43,15 @@
             android:text=" "
             android:textColor="@color/white"
             android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textnoInternet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="No internet connection"
+            android:textColor="#F80505"
+            android:textSize="50sp" />
 
         <TextView
             android:id="@+id/tvWind"

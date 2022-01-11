@@ -1,6 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.kotlin_version = "1.4.32"
+    ext.kotlin_version = "1.4.32" // hilt не работает на поздней версии, возможно я что-то напутал, но так всё работает
     repositories {
         google()
         jcenter()

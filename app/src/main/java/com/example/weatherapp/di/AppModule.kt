@@ -9,7 +9,7 @@ import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
-// могут быть проблемы везде, первый раз использую корутины и даггер
+
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
